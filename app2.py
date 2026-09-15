@@ -201,10 +201,10 @@ st.caption('Interactive Regulatory Analysis Pipeline — membaca hasil yang suda
 
 pages={
 '🏠 Overview':'overview','1. Dokumen Regulasi':'documents',
-'2. Regulatory Segmentation':'segmentation','4. Regulatory Hierarchy':'hierarchy','5. Knowledge Base':'knowledge',
-'6. Embedding':'embedding','7. Similarity Matching':'similarity','8. Candidate Filtering':'filtering',
-'9. LLM Regulatory Judgment':'llm','10. Final Regulatory Matching':'matching','11. Final Validation':'validation',
-'12. Manual Evaluation':'manual','📊 Final Results':'results','⚠️ Keterbatasan': 'limitations'}
+'2. Regulatory Segmentation':'segmentation','3. Regulatory Hierarchy':'hierarchy','4. Knowledge Base':'knowledge',
+'5. Embedding':'embedding','6. Similarity Matching':'similarity','7. Candidate Filtering':'filtering',
+'8. LLM Regulatory Judgment':'llm','9. Final Regulatory Matching':'matching','10. Final Validation':'validation',
+'11. Manual Evaluation':'manual','📊 Final Results':'results','⚠️ Keterbatasan': 'limitations'}
 page=pages[st.sidebar.radio('Tahapan',list(pages))]
 st.sidebar.divider()
 st.sidebar.caption('Data source: Google Drive')
