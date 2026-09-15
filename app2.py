@@ -201,7 +201,7 @@ st.caption('Interactive Regulatory Analysis Pipeline — membaca hasil yang suda
 
 pages={
 '🏠 Overview':'overview','1. Dokumen Regulasi':'documents',
-'3. Regulatory Segmentation':'segmentation','4. Regulatory Hierarchy':'hierarchy','5. Knowledge Base':'knowledge',
+'2. Regulatory Segmentation':'segmentation','4. Regulatory Hierarchy':'hierarchy','5. Knowledge Base':'knowledge',
 '6. Embedding':'embedding','7. Similarity Matching':'similarity','8. Candidate Filtering':'filtering',
 '9. LLM Regulatory Judgment':'llm','10. Final Regulatory Matching':'matching','11. Final Validation':'validation',
 '12. Manual Evaluation':'manual','📊 Final Results':'results','⚠️ Keterbatasan': 'limitations'}
